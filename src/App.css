@@ -86,7 +86,7 @@ html, body {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(0px);
   transition: all 0.3s ease;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
 
 .sticky-nav.scrolled {
@@ -100,25 +100,25 @@ html, body {
 .nav-container {
   max-width: 1280px; /* max-w-7xl equivalent */
   margin: 0 auto;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 1rem;
   position: relative;
 }
 
 @media (min-width: 640px) {
   .nav-container {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .nav-container {
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
   }
 }
 
 @media (min-width: 1280px) {
   .nav-container {
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
   }
 }
 
@@ -163,7 +163,7 @@ html, body {
 }
 
 .nav-logo {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 800;
   color: #ffffff;
   transition: color 0.3s ease;
@@ -189,14 +189,14 @@ html, body {
 
 @media (min-width: 768px) {
   .nav-logo {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: -1px;
   }
 }
 
 @media (min-width: 1024px) {
   .nav-logo {
-    font-size: 2.25rem;
+    font-size: 1.9rem;
     font-weight: 800;
     letter-spacing: -1px;
   }

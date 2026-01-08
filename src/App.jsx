@@ -1217,13 +1217,7 @@ This email was sent from your website contact form via Brevo.
                 onClick={scrollToTop}
                 className={`nav-logo ${isScrolled ? 'scrolled' : ''}`}
                 aria-label="Reese Chase - Return to top"
-                style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}
               >
-                <img 
-                  src="/images/reese-logo.png" 
-                  alt="Reese Chase Logo" 
-                  style={{ height: '40px', width: 'auto' }}
-                />
                 <span>Reese Chase<sup>®</sup></span>
               </button>
               <div className="nav-badge">
@@ -2955,7 +2949,7 @@ This email was sent from your website contact form via Brevo.
               <img 
                 src="/images/reese-logo.png" 
                 alt="Reese Chase Logo" 
-                style={{ height: '60px', width: 'auto' }}
+                style={{ height: '200px', width: 'auto' }}
               />
             </div>
             <p className="footer-eho">Equal Housing Opportunity</p>
