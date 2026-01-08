@@ -3000,7 +3000,7 @@ This email was sent from your website contact form via Brevo.
           onClick={scrollToTop}
           aria-label="Scroll to top"
         >
-          <ArrowUp size={48} strokeWidth={2.5} />
+          <ArrowUp size={32} strokeWidth={2.5} />
         </button>
       )}
     </div>

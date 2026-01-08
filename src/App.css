@@ -5482,7 +5482,7 @@ section {
 
 .back-to-top {
   position: fixed;
-  bottom: 2rem;
+  bottom: 1rem;
   left: 2rem;
   background: transparent;
   border: none;
@@ -5497,11 +5497,13 @@ section {
   padding: 0;
   animation: fadeInUp 0.5s ease;
   outline: none;
+  width: 36px;
+  height: 36px;
 }
 
 .back-to-top:hover {
-  color: #5682B1;
-  transform: scale(1.2);
+  color: #739EC9;
+  transform: scale(1.15);
 }
 
 .back-to-top:focus {
@@ -5516,8 +5518,8 @@ section {
   }
   
   .back-to-top svg {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -6502,10 +6504,10 @@ section {
   }
 
   .back-to-top {
-    bottom: 0.5rem;
+    bottom: 0.75rem;
     left: 0.5rem;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     font-size: 1rem;
   }
 }
@@ -6657,11 +6659,11 @@ section {
   }
 
   .back-to-top {
-    bottom: 3rem;
+    bottom: 1.5rem;
     left: 3rem;
-    width: 60px;
-    height: 60px;
-    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
   }
 }
 
@@ -6675,10 +6677,10 @@ section {
   }
 
   .back-to-top {
-    bottom: 4rem;
+    bottom: 1.5rem;
     left: 4rem;
-    width: 70px;
-    height: 70px;
-    font-size: 2rem;
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
   }
 }
