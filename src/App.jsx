@@ -96,9 +96,7 @@ function App() {
   // See PROPERTY_TAX_RATES_SOURCES.md for sources and verification links
   // Rates are expressed as percentage (e.g., 1.50 = 1.50% of assessed value)
   const stateDefaultTaxRates = {
-    'FL': 1.5, // Florida/Broward County average (verify with official sources)
-    'VA': 1.05, // Virginia average (verify with official sources)
-    'TX': 2.10 // Texas average (verify with official sources)
+    'FL': 1.5 // Florida/Broward County average (verify with official sources)
   }
 
   // County-specific tax rates
@@ -120,47 +118,6 @@ function App() {
       'Lauderhill': 1.5,
       'Dania Beach': 1.5,
       'Other South Florida Communities': 1.5 // Florida default
-    },
-    'VA': {
-      // Richmond & Surrounding Areas
-      'Richmond': 1.20,
-      'Chesterfield': 0.95,
-      'Henrico': 0.87,
-      'Hanover': 0.81,
-      'Midlothian': 0.95,
-      'Other Richmond Communities': 1.05 // Virginia default
-    },
-    'TX': {
-      // Dallas & Surrounding Areas
-      'Dallas': 2.20,
-      'Irving': 2.15,
-      'Garland': 2.18,
-      'Richardson': 2.12,
-      'Grand Prairie': 2.25,
-      'Arlington': 2.30,
-      'Fort Worth': 2.22,
-      'Desoto': 2.28,
-      'Duncanville': 2.20,
-      'Lancaster': 2.25,
-      'Cedar Hill': 2.18,
-      'Dallas County (Other)': 2.20,
-      // Frisco, Plano & North Dallas
-      'Frisco': 2.05,
-      'Plano': 2.08,
-      'McKinney': 2.10,
-      'Allen': 2.12,
-      'Addison': 2.15,
-      'Carrollton': 2.18,
-      'Lewisville': 2.20,
-      'Collin County (Other)': 2.08,
-      // Celina, Prosper & More
-      'Celina': 2.00,
-      'Prosper': 2.05,
-      'Aubrey': 2.08,
-      'Forney': 2.15,
-      'Midlothian': 2.22,
-      'North Richland Hills': 2.25,
-      'Other DFW Communities': 2.10 // Texas default
     }
   }
 
@@ -1782,7 +1739,6 @@ This email was sent from your website contact form via Brevo.
                     className="calc-select"
                   >
                     <option value="FL">Florida</option>
-                    <option value="VA">Virginia</option>
                   </select>
                   <ChevronDown className="select-arrow" size={20} />
                 </div>
@@ -1815,18 +1771,6 @@ This email was sent from your website contact form via Brevo.
                           <option value="Lauderhill">Lauderhill</option>
                           <option value="Dania Beach">Dania Beach</option>
                           <option value="Other South Florida Communities">Other South Florida Communities</option>
-                        </optgroup>
-                      </>
-                    )}
-                    {closingCostData.state === 'VA' && (
-                      <>
-                        {/* Richmond & Surrounding Areas */}
-                        <optgroup label="Richmond & Surrounding Areas">
-                          <option value="Richmond">Richmond City</option>
-                          <option value="Chesterfield">Chesterfield County</option>
-                          <option value="Henrico">Henrico County</option>
-                          <option value="Hanover">Hanover County</option>
-                          <option value="Midlothian">Midlothian</option>
                         </optgroup>
                       </>
                     )}
